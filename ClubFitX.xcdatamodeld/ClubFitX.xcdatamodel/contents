@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22E252" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="NO" userDefinedModelVersionIdentifier="">
+
+    <entity name="UserProfile" representedClassName="UserProfile" syncable="YES" codeGenerationType="none">
+        <attribute name="id"                 attributeType="UUID"       usesScalarValueType="NO"/>
+        <attribute name="name"               attributeType="String"     defaultValueString="User"/>
+        <attribute name="gender"             attributeType="String"     defaultValueString="Male"/>
+        <attribute name="heightCm"           attributeType="Double"     defaultValueString="170"  usesScalarValueType="YES"/>
+        <attribute name="dateOfBirth"        attributeType="Date"       optional="YES"             usesScalarValueType="NO"/>
+        <attribute name="goalWeightKg"       attributeType="Double"     defaultValueString="70"   usesScalarValueType="YES"/>
+        <attribute name="startWeightKg"      attributeType="Double"     defaultValueString="80"   usesScalarValueType="YES"/>
+        <attribute name="dailyCalorieGoal"   attributeType="Integer 32" defaultValueString="2000" usesScalarValueType="YES"/>
+        <attribute name="dailyProteinGoal"   attributeType="Integer 32" defaultValueString="150"  usesScalarValueType="YES"/>
+        <attribute name="dailyCarbsGoal"     attributeType="Integer 32" defaultValueString="250"  usesScalarValueType="YES"/>
+        <attribute name="dailyFatGoal"       attributeType="Integer 32" defaultValueString="65"   usesScalarValueType="YES"/>
+        <attribute name="weeklyWorkoutGoal"  attributeType="Integer 32" defaultValueString="5"    usesScalarValueType="YES"/>
+        <attribute name="dailyStepGoal"      attributeType="Integer 32" defaultValueString="10000" usesScalarValueType="YES"/>
+        <attribute name="dailyWaterGoalL"    attributeType="Double"     defaultValueString="2.5"  usesScalarValueType="YES"/>
+        <attribute name="dailySleepGoalHrs"  attributeType="Double"     defaultValueString="8"    usesScalarValueType="YES"/>
+        <attribute name="fitnessLevel"       attributeType="String"     defaultValueString="Beginner"/>
+        <attribute name="primaryGoal"        attributeType="String"     defaultValueString="Lose Weight"/>
+        <attribute name="createdAt"          attributeType="Date"                                  usesScalarValueType="NO"/>
+    </entity>
+
+    <entity name="WorkoutEntry" representedClassName="WorkoutEntry" syncable="YES" codeGenerationType="none">
+        <attribute name="id"             attributeType="UUID"       usesScalarValueType="NO"/>
+        <attribute name="date"           attributeType="Date"       usesScalarValueType="NO"/>
+        <attribute name="type"           attributeType="String"     defaultValueString="Running"/>
+        <attribute name="emoji"          attributeType="String"     defaultValueString="run"/>
+        <attribute name="source"         attributeType="String"     defaultValueString="Manual"/>
+        <attribute name="durationMinutes" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="caloriesBurned" attributeType="Double"    defaultValueString="0"  usesScalarValueType="YES"/>
+        <attribute name="distanceKm"     attributeType="Double"    defaultValueString="0"  usesScalarValueType="YES"/>
+        <attribute name="avgHeartRate"   attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="maxHeartRate"   attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="steps"          attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="notes"          attributeType="String"    optional="YES"/>
+        <attribute name="healthKitID"    attributeType="String"    optional="YES"/>
+    </entity>
+
+    <entity name="NutritionEntry" representedClassName="NutritionEntry" syncable="YES" codeGenerationType="none">
+        <attribute name="id"          attributeType="UUID"    usesScalarValueType="NO"/>
+        <attribute name="date"        attributeType="Date"    usesScalarValueType="NO"/>
+        <attribute name="foodName"    attributeType="String"  defaultValueString="Food"/>
+        <attribute name="mealType"    attributeType="String"  defaultValueString="Breakfast"/>
+        <attribute name="calories"    attributeType="Double"  defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="protein"     attributeType="Double"  defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="carbs"       attributeType="Double"  defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fat"         attributeType="Double"  defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fiber"       attributeType="Double"  defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="servingSize" attributeType="String"  defaultValueString="1 serving"/>
+        <attribute name="quantity"    attributeType="Double"  defaultValueString="1" usesScalarValueType="YES"/>
+    </entity>
+
+    <entity name="WeightEntry" representedClassName="WeightEntry" syncable="YES" codeGenerationType="none">
+        <attribute name="id"       attributeType="UUID"   usesScalarValueType="NO"/>
+        <attribute name="date"     attributeType="Date"   usesScalarValueType="NO"/>
+        <attribute name="weightKg" attributeType="Double" defaultValueString="70" usesScalarValueType="YES"/>
+        <attribute name="notes"    attributeType="String" optional="YES"/>
+        <attribute name="source"   attributeType="String" defaultValueString="Manual"/>
+    </entity>
+
+    <entity name="SleepEntry" representedClassName="SleepEntry" syncable="YES" codeGenerationType="none">
+        <attribute name="id"           attributeType="UUID"   usesScalarValueType="NO"/>
+        <attribute name="date"         attributeType="Date"   usesScalarValueType="NO"/>
+        <attribute name="bedtime"      attributeType="Date"   usesScalarValueType="NO"/>
+        <attribute name="wakeTime"     attributeType="Date"   usesScalarValueType="NO"/>
+        <attribute name="durationHrs"  attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="quality"      attributeType="String" defaultValueString="Good"/>
+        <attribute name="source"       attributeType="String" defaultValueString="Manual"/>
+        <attribute name="notes"        attributeType="String" optional="YES"/>
+    </entity>
+
+    <entity name="WaterEntry" representedClassName="WaterEntry" syncable="YES" codeGenerationType="none">
+        <attribute name="id"         attributeType="UUID"       usesScalarValueType="NO"/>
+        <attribute name="date"       attributeType="Date"       usesScalarValueType="NO"/>
+        <attribute name="amountML"   attributeType="Integer 32" defaultValueString="250" usesScalarValueType="YES"/>
+    </entity>
+
+    <entity name="Badge" representedClassName="Badge" syncable="YES" codeGenerationType="none">
+        <attribute name="id"          attributeType="UUID"       usesScalarValueType="NO"/>
+        <attribute name="badgeID"     attributeType="String"     defaultValueString=""/>
+        <attribute name="earnedAt"    attributeType="Date"       usesScalarValueType="NO"/>
+        <attribute name="isNew"       attributeType="Boolean"    defaultValueString="YES" usesScalarValueType="YES"/>
+    </entity>
+
+    <entity name="Challenge" representedClassName="Challenge" syncable="YES" codeGenerationType="none">
+        <attribute name="id"           attributeType="UUID"       usesScalarValueType="NO"/>
+        <attribute name="challengeID"  attributeType="String"     defaultValueString=""/>
+        <attribute name="startDate"    attributeType="Date"       usesScalarValueType="NO"/>
+        <attribute name="endDate"      attributeType="Date"       usesScalarValueType="NO"/>
+        <attribute name="progress"     attributeType="Double"     defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isCompleted"  attributeType="Boolean"    defaultValueString="NO" usesScalarValueType="YES"/>
+    </entity>
+
+</model>

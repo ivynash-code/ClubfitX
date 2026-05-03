@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013A546B6AFF469B2E23BB06 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98E9CFBDE558139FE33D82 /* NotificationManager.swift */; };
+		12451AB8CF86EE08D775D144 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A241F4DE4F3AAFB998C6687 /* NutritionView.swift */; };
+		21315BF1CC341A383BE97517 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D99DD09BCAB3AECE11131F8 /* HomeView.swift */; };
+		5372D368466B598F3A98E1F4 /* ClubFitXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E807E69430AE5B791A5543 /* ClubFitXApp.swift */; };
+		718F6FDBEDFE1B524AC58138 /* CoreDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0844544977AA557512AD0D8D /* CoreDataModels.swift */; };
+		891BC2B106B637C3D6F967B2 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A1705AB7D5D04806DF6703 /* DesignSystem.swift */; };
+		96089C1ACC467728FA4324FD /* GamificationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1D05D41623848FB3BF2CE5 /* GamificationModels.swift */; };
+		99AC6680C96991E35472FD3C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5481C76A952E75754E9B16EB /* HealthKit.framework */; };
+		9AD54ABB898A3F4B1E1BA45C /* ClubFitX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54FC72197E2CE9A854329FC4 /* ClubFitX.xcdatamodeld */; };
+		A01C2D9CF348BF4025DF993F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B640439AA352E5ED60C84C14 /* OnboardingView.swift */; };
+		A3623AD42C107C105A17754E /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DBD4503CE397955EF49DFD /* PersistenceController.swift */; };
+		A3B275B261B95CDB83546DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F1997FC2103955FE48A2C /* Assets.xcassets */; };
+		A9E3210238D8CC92196CFA1C /* AllViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5F96A52AD77D8AFB432767 /* AllViews.swift */; };
+		B1D4E41BD85677563D9CFD3E /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EB0399B9ED5FD34ADF43D3 /* AppViewModel.swift */; };
+		BB7E89D9D1F1E661899BB869 /* GamificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913543A9D21EE4DC3573C59A /* GamificationView.swift */; };
+		CE676EF802E8298DE7912908 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91045616BFCDAD09ABEAE0C0 /* HealthKitManager.swift */; };
+		D1C109B892AA2A5C9E3DCF2A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61ED9660F3BEB687B7D5C3 /* MainTabView.swift */; };
+		F3A0F477DBFCC3C1E069729F /* IndianFoodDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA18A9AF4D08FECEDEC1E62 /* IndianFoodDatabase.swift */; };
+		F486BE28FA1B004BF507A4D5 /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CB3B5A79A32AF70B546CFB /* TrackingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07A1705AB7D5D04806DF6703 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		0844544977AA557512AD0D8D /* CoreDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModels.swift; sourceTree = "<group>"; };
+		0A9F1997FC2103955FE48A2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CA18A9AF4D08FECEDEC1E62 /* IndianFoodDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndianFoodDatabase.swift; sourceTree = "<group>"; };
+		19E807E69430AE5B791A5543 /* ClubFitXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubFitXApp.swift; sourceTree = "<group>"; };
+		5481C76A952E75754E9B16EB /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		54FC72197E2CE9A854329FC4 /* ClubFitX.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClubFitX.xcdatamodeld; sourceTree = "<group>"; };
+		5A241F4DE4F3AAFB998C6687 /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		76EB0399B9ED5FD34ADF43D3 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		7D99DD09BCAB3AECE11131F8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		87CB3B5A79A32AF70B546CFB /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+		91045616BFCDAD09ABEAE0C0 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		913543A9D21EE4DC3573C59A /* GamificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamificationView.swift; sourceTree = "<group>"; };
+		AE1D05D41623848FB3BF2CE5 /* GamificationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamificationModels.swift; sourceTree = "<group>"; };
+		AE5F96A52AD77D8AFB432767 /* AllViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllViews.swift; sourceTree = "<group>"; };
+		B640439AA352E5ED60C84C14 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		CE61ED9660F3BEB687B7D5C3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		E7A1DE34D9038E37B8AA0A97 /* ClubFitX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubFitX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DBD4503CE397955EF49DFD /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		FA98E9CFBDE558139FE33D82 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCB13D7EDBAAE7DD085AD9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AC6680C96991E35472FD3C /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029A2222B630FFB31156956F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				54FC72197E2CE9A854329FC4 /* ClubFitX.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		0A85897F1A32FE9B91C081CD = {
+			isa = PBXGroup;
+			children = (
+				6E91E962F271651E5DB63502 /* App */,
+				791DB8710C9B711EEDC3A50F /* Models */,
+				CD024875B3057A968077CEE8 /* Views */,
+				9A2A754AEFB850701D04FA0B /* ViewModels */,
+				6F7C78098A35B48E19C1765B /* Database */,
+				E31173AD82616B8E70C41238 /* Utilities */,
+				71BEE56A7AB2A21372CEF785 /* Services */,
+				DFE9D5F0FDADC177E2C05CFE /* Notifications */,
+				D868D2E338F35E5D714AC722 /* HealthKit */,
+				029A2222B630FFB31156956F /* CoreData */,
+				0A9F1997FC2103955FE48A2C /* Assets.xcassets */,
+				D71BD8A0B6A6AA54EDBA6454 /* Products */,
+				CC7EC8152FA4B003001DADE9 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		176F15151C3A0262DBB3F17D /* Gamification */ = {
+			isa = PBXGroup;
+			children = (
+				913543A9D21EE4DC3573C59A /* GamificationView.swift */,
+			);
+			path = Gamification;
+			sourceTree = "<group>";
+		};
+		21020D7720B3B921B5B3513E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		22BE16600DAD005A4E5BE2A9 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		2391743381124C222B3744DB /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B640439AA352E5ED60C84C14 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		37880C72F0C29F5BFB96A2A9 /* Nutrition */ = {
+			isa = PBXGroup;
+			children = (
+				5A241F4DE4F3AAFB998C6687 /* NutritionView.swift */,
+			);
+			path = Nutrition;
+			sourceTree = "<group>";
+		};
+		466D5EF1E986B3FB7932879B /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		47631876FE981A31AA3A9AF8 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		4E610F5F8B90E56B81A21446 /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				87CB3B5A79A32AF70B546CFB /* TrackingView.swift */,
+			);
+			path = Tracking;
+			sourceTree = "<group>";
+		};
+		6735E1124F4F0CA8B9A45D27 /* Weight */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Weight;
+			sourceTree = "<group>";
+		};
+		6E91E962F271651E5DB63502 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				19E807E69430AE5B791A5543 /* ClubFitXApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6F7C78098A35B48E19C1765B /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				0CA18A9AF4D08FECEDEC1E62 /* IndianFoodDatabase.swift */,
+				F9DBD4503CE397955EF49DFD /* PersistenceController.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		702BF488640237EFDE80AE4A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		71BEE56A7AB2A21372CEF785 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		791DB8710C9B711EEDC3A50F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0844544977AA557512AD0D8D /* CoreDataModels.swift */,
+				AE1D05D41623848FB3BF2CE5 /* GamificationModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84530224073970C96522CFE4 /* Water */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Water;
+			sourceTree = "<group>";
+		};
+		9A2A754AEFB850701D04FA0B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				76EB0399B9ED5FD34ADF43D3 /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9FEFB7738BC92804B4990F47 /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		BD172E7EDB8D3D3AD7289CBD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7D99DD09BCAB3AECE11131F8 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C806B3751DA31D014DF19FF8 /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		CC7EC8152FA4B003001DADE9 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				5481C76A952E75754E9B16EB /* HealthKit.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		CD024875B3057A968077CEE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE5F96A52AD77D8AFB432767 /* AllViews.swift */,
+				CE61ED9660F3BEB687B7D5C3 /* MainTabView.swift */,
+				BD172E7EDB8D3D3AD7289CBD /* Home */,
+				C806B3751DA31D014DF19FF8 /* Workout */,
+				37880C72F0C29F5BFB96A2A9 /* Nutrition */,
+				6735E1124F4F0CA8B9A45D27 /* Weight */,
+				466D5EF1E986B3FB7932879B /* Goals */,
+				9FEFB7738BC92804B4990F47 /* Sleep */,
+				84530224073970C96522CFE4 /* Water */,
+				47631876FE981A31AA3A9AF8 /* Content */,
+				176F15151C3A0262DBB3F17D /* Gamification */,
+				2391743381124C222B3744DB /* Onboarding */,
+				E2A0DA9FB6704A375B5DF780 /* Reports */,
+				22BE16600DAD005A4E5BE2A9 /* Share */,
+				702BF488640237EFDE80AE4A /* Profile */,
+				21020D7720B3B921B5B3513E /* Settings */,
+				4E610F5F8B90E56B81A21446 /* Tracking */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D71BD8A0B6A6AA54EDBA6454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7A1DE34D9038E37B8AA0A97 /* ClubFitX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D868D2E338F35E5D714AC722 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				91045616BFCDAD09ABEAE0C0 /* HealthKitManager.swift */,
+			);
+			path = HealthKit;
+			sourceTree = "<group>";
+		};
+		DFE9D5F0FDADC177E2C05CFE /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				FA98E9CFBDE558139FE33D82 /* NotificationManager.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		E2A0DA9FB6704A375B5DF780 /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		E31173AD82616B8E70C41238 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				07A1705AB7D5D04806DF6703 /* DesignSystem.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93C26D005FAEE4769E41CC65 /* ClubFitX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A5BBBDDDFD58CB7D54E81A /* Build configuration list for PBXNativeTarget "ClubFitX" */;
+			buildPhases = (
+				21EA22531D07CFB94E0E0E52 /* Sources */,
+				FCB13D7EDBAAE7DD085AD9D3 /* Frameworks */,
+				3E4149F4CEEB2B45A1E83FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClubFitX;
+			productName = ClubFitX;
+			productReference = E7A1DE34D9038E37B8AA0A97 /* ClubFitX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA2ADDE5C377CB5E09D14B71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					93C26D005FAEE4769E41CC65 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = D0C558DE70956287EDDBA9D5 /* Build configuration list for PBXProject "ClubFitX" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A85897F1A32FE9B91C081CD;
+			productRefGroup = D71BD8A0B6A6AA54EDBA6454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93C26D005FAEE4769E41CC65 /* ClubFitX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E4149F4CEEB2B45A1E83FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B275B261B95CDB83546DF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21EA22531D07CFB94E0E0E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5372D368466B598F3A98E1F4 /* ClubFitXApp.swift in Sources */,
+				718F6FDBEDFE1B524AC58138 /* CoreDataModels.swift in Sources */,
+				96089C1ACC467728FA4324FD /* GamificationModels.swift in Sources */,
+				A9E3210238D8CC92196CFA1C /* AllViews.swift in Sources */,
+				D1C109B892AA2A5C9E3DCF2A /* MainTabView.swift in Sources */,
+				21315BF1CC341A383BE97517 /* HomeView.swift in Sources */,
+				12451AB8CF86EE08D775D144 /* NutritionView.swift in Sources */,
+				BB7E89D9D1F1E661899BB869 /* GamificationView.swift in Sources */,
+				A01C2D9CF348BF4025DF993F /* OnboardingView.swift in Sources */,
+				F486BE28FA1B004BF507A4D5 /* TrackingView.swift in Sources */,
+				B1D4E41BD85677563D9CFD3E /* AppViewModel.swift in Sources */,
+				F3A0F477DBFCC3C1E069729F /* IndianFoodDatabase.swift in Sources */,
+				A3623AD42C107C105A17754E /* PersistenceController.swift in Sources */,
+				891BC2B106B637C3D6F967B2 /* DesignSystem.swift in Sources */,
+				013A546B6AFF469B2E23BB06 /* NotificationManager.swift in Sources */,
+				CE676EF802E8298DE7912908 /* HealthKitManager.swift in Sources */,
+				9AD54ABB898A3F4B1E1BA45C /* ClubFitX.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9BBAF5CD5F6CC5513091CC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ClubFitX.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH7T23M958;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "ClubFitX reads your workouts, steps, heart rate, sleep and weight from Apple Health.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "ClubFitX writes workouts to Apple Health.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = club.the99percent.fitx;
+				PRODUCT_NAME = ClubFitX;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE5E959BE03A169FA2FF35DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDF6E40ADB26230B53764E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB6C266D99F6AE4F5EDF44B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ClubFitX.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH7T23M958;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "ClubFitX reads your workouts, steps, heart rate, sleep and weight from Apple Health.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "ClubFitX writes workouts to Apple Health.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = club.the99percent.fitx;
+				PRODUCT_NAME = ClubFitX;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91A5BBBDDDFD58CB7D54E81A /* Build configuration list for PBXNativeTarget "ClubFitX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6C266D99F6AE4F5EDF44B0 /* Debug */,
+				9BBAF5CD5F6CC5513091CC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C558DE70956287EDDBA9D5 /* Build configuration list for PBXProject "ClubFitX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5E959BE03A169FA2FF35DE /* Debug */,
+				EDF6E40ADB26230B53764E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA2ADDE5C377CB5E09D14B71 /* Project object */;
+}
